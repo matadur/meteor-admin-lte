@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'mfactory:admin-lte',
-  version: '0.0.2',
-  summary: 'AdminLTE dashboard theme',
+  name: 'matadur:admin-lte',
+  version: '0.0.3',
+  summary: 'A fork of the AdminLTE dashboard theme by mfactory',
   git: 'https://github.com/meteor-factory/meteor-admin-lte.git',
   documentation: 'README.md'
 });
@@ -20,6 +20,7 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.addFiles([
+    'css/lib/normalize.css',
     'css/AdminLTE.min.css',
     'css/skins/skin-black-light.min.css',
     'css/skins/skin-black.min.css',
