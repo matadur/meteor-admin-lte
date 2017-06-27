@@ -1,7 +1,9 @@
 AdminLTE dashboard theme
 ========================
 
-`meteor add mfactory:admin-lte`
+`meteor add matadur:admin-lte`
+
+A fork of mfactory:admin-lte
 
 ## Usage ##
 

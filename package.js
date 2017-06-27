@@ -1,8 +1,8 @@
 Package.describe({
   name: 'matadur:admin-lte',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'A fork of the AdminLTE dashboard theme by mfactory',
-  git: 'https://github.com/meteor-factory/meteor-admin-lte.git',
+  git: 'https://github.com/matadur/meteor-admin-lte.git',
   documentation: 'README.md'
 });
 
