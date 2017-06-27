@@ -121,12 +121,12 @@ Template.AdminLTE.events({
 });
 
 function cssUrl () {
-  return Meteor.absoluteUrl('packages/mfactory_admin-lte/css/AdminLTE.min.css');
+  return Meteor.absoluteUrl('packages/matadur_admin-lte/css/AdminLTE.min.css');
 }
 
 function skinUrl (name) {
   return Meteor.absoluteUrl(
-    'packages/mfactory_admin-lte/css/skins/skin-' + name + '.min.css');
+    'packages/matadur_admin-lte/css/skins/skin-' + name + '.min.css');
 }
 
 function waitOnCSS (url, timeout) {
